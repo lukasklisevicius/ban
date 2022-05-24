@@ -63,7 +63,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* margin: 10px 0; */
+    margin: 5px 0;
 }
 
 .text img, .info img, .btn img{
@@ -71,6 +71,6 @@ body{
 }
 
 .phone img {
-    min-width: 50%;
-    max-width: 60%;
+    min-width: 40%;
+    max-width: 55%;
 }

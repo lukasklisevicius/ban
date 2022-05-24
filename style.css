@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner{
+    width: 100%;
+    height: 100%;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bg{
+    background: url('bendras/background1.jpg') no-repeat center center;
+    width: 100%;
+    height: 100vh;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box{
+    width: 100%;
+}
+.box img{
+    width: 100%;
+}
+
+#close{
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+}
+
+#close img{
+    width: 20px;
+    height: 20px;
+}
+
+.logo{
+    position: relative;
+}
+
+.logo img{
+    height: 75px;
+    width: auto;
+}
+.text, .phone, .info, .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.text img,  .info img, .btn img{
+    width: 80%;
+}

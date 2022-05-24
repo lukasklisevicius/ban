@@ -50,14 +50,13 @@ body{
     width: 20px;
     height: 20px;
 }
-
-.logo{
-    position: relative;
+.top{
+    height: 10%;
 }
 
 .logo img{
-    height: 75px;
     width: auto;
+    max-height: 75px;
 }
 .text, .phone, .info, .btn{
     display: flex;
@@ -78,9 +77,7 @@ body{
     max-width: 75%;
 }
 
-.top{
-    height: 10%;
-}
+
 .mid{
     height: 70%;
     display: flex;

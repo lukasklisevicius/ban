@@ -74,6 +74,6 @@ body{
 }
 
 .phone img {
-    min-width: 60%;
+    min-width: 300px;
     max-width: 75%;
 }

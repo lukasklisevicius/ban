@@ -63,9 +63,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px 0;
+    /* margin: 10px 0; */
 }
 
-.text img,  .info img, .btn img{
+.text img, .info img, .btn img{
     width: 80%;
+}
+
+.phone img {
+    min-width: 50%;
+    max-width: 80%;
 }
